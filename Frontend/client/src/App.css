@@ -6,7 +6,6 @@ header {
   color: white;
 }
 
-
 .search-bar {
   display: flex;
   border-radius: 999px;
@@ -40,6 +39,7 @@ header {
   border: 1px solid #ccc;
   border-radius: 999px;
   padding: 0.5rem 1rem;
+  color: white;
 }
 
 .user-icon > svg {
