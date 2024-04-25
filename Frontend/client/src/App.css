@@ -5,6 +5,9 @@ header {
   background-color: black;
   color: white;
 }
+.h1{
+  font-size: large;
+}
 
 .search-bar {
   display: flex;
