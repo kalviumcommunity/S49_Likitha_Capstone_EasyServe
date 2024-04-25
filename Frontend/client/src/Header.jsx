@@ -3,7 +3,7 @@ import './App.css';
 export default function Header(){
     return(
         <header className='header'>
-        <span className='font-bold text-xl'>EasyServe</span>
+        <span className='h1'>EasyServe</span>
         <div className='search-bar'>
           <div>Where</div>
           <div className="divider"></div>
