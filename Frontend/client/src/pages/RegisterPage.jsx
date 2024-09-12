@@ -45,7 +45,7 @@ export default function RegisterPage() {
                   <div className="register-link">
                     All ready have an account?{" "}
                     <Link className="register-link-text" to={"/login"}>
-                      Login
+                      login
                     </Link>
                   </div>
                 </form>
