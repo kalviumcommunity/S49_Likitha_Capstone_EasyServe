@@ -1,0 +1,21 @@
+meta {
+  name: Post Api
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/api/agents
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "David Lee",
+    "service": "Painter",
+    "location": "San Francisco",
+    "rating": 4.6
+  }
+  
+}
