@@ -1,6 +1,5 @@
 const Request = require('../models/Request');
 
-// Get all service requests
 exports.getRequests = async (req, res) => {
     try {
         const requests = await Request.find();
@@ -10,7 +9,6 @@ exports.getRequests = async (req, res) => {
     }
 };
 
-// Add a new service request
 exports.addRequest = async (req, res) => {
     try {
         const { customer, service, status } = req.body;
@@ -26,7 +24,6 @@ exports.addRequest = async (req, res) => {
     }
 };
 
-// Update a service request
 exports.updateRequest = async (req, res) => {
     try {
         const { id } = req.params;

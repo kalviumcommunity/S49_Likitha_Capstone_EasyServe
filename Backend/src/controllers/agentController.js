@@ -1,6 +1,5 @@
 const Agent = require('../models/Agent');
 
-// Get all agents
 exports.getAgents = async (req, res) => {
     try {
         const agents = await Agent.find();
@@ -10,7 +9,6 @@ exports.getAgents = async (req, res) => {
     }
 };
 
-// Add a new agent
 exports.addAgent = async (req, res) => {
     try {
         const { name, service, location, rating } = req.body;
@@ -26,7 +24,6 @@ exports.addAgent = async (req, res) => {
     }
 };
 
-// Update an agent
 exports.updateAgent = async (req, res) => {
     try {
         const { id } = req.params;
