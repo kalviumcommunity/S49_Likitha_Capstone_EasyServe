@@ -61,4 +61,11 @@ This project leverages the power of Node.js and Express.js for the backend and R
 I created a repo for my project and added my readme file and put the data  into it.
 
 backend deployment : Requests : https://s49-likitha-capstone-easyserve.onrender.com/api/requests
-                     Agents   : https://s49-likitha-capstone-easyserve.onrender.com/api/agents
+                     Agents   : https://s49-likitha-capstone-easyserve.onrender.com/api/agents,mf xhgxbcg
+
+Frontend deployed link : https://easy-serve2511.netlify.app/-
+
+
+
+
+
