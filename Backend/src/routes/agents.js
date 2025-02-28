@@ -21,4 +21,20 @@ router.post('/', (req, res) => {
     res.status(201).json({ message: "Agent added successfully", newAgent });
 });
 
+// PUT (Update) an agent by ID
+router.put('/:id', (req, res) => {
+    const agentId = parseInt(req.params.id);
+    const updatedAgent = req.body;
+
+    const agentIndex = agents.findIndex(agent => agent.id === agentId);
+
+    if (agentIndex === -1) {
+        return res.status(404).json({ message: "Agent not found" });
+    }
+
+    agents[agentIndex] = { ...agents[agentIndex], ...updatedAgent };
+
+    res.json({ message: "Agent updated successfully", updatedAgent: agents[agentIndex] });
+});
+
 module.exports = router;
