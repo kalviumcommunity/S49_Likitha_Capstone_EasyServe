@@ -15,5 +15,5 @@ app.use('/api/agents', require('./routes/agents'));
 app.use('/api/requests', require('./routes/requests'));
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`🚀 Server is running on port ${PORT}`);
 });
