@@ -1,0 +1,51 @@
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.h1{
+  font-size: large;
+}
+
+.search-bar {
+  display: flex;
+  border-radius: 999px;
+  padding: 0.5rem 1rem; 
+}
+
+.search-bar > div {
+  color: white;
+  margin-right: 10px; 
+}
+
+.search-bar > .divider {
+  border-left: 1px solid #ccc;
+  margin: 0 19px;
+  height: 20px; 
+}
+
+.search-bar > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar > button > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.user-icon {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.user-icon > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

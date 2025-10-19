@@ -1,0 +1,20 @@
+meta {
+  name: put
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:5000/api/agents/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "updated David Lee",
+    "service": " updated Painter",
+    "location": "updated San Francisco",
+    "rating": 5
+  }
+}

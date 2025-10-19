@@ -1,0 +1,21 @@
+meta {
+  name: Put api
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:5000/api/agents/67c534c6cca06f1c8dc32668
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "David Lee updated",
+    "service": "done Painter",
+    "location": " done San Francisco",
+    "rating" : 4.5
+  }
+  
+}
